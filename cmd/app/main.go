@@ -13,7 +13,6 @@ func main() {
 	conf := c.Config{}
 
 	conf.ReadConfig()
-	log.Printf("%v", conf)
 
-	bot.Run("5846901694:AAGm1JwF4qWA-OitiRXxXe6lz405jn5d_VU")
+	bot.Run(conf.Token)
 }
